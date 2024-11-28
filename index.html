@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gas Stations in Spain</title>
+  <link rel="stylesheet" href="./src/css/style.css">
+  <script src="./src/js/index.js" defer></script>
+</head>
+
+<body>
+  <h1>Gas Stations in Spain</h1>
+  <div class="filters">
+    <select id="provinceSelect">
+      <option value="">Select Province</option>
+    </select>
+    <select id="municipalitySelect" disabled>
+      <option value="">Select Municipality</option>
+    </select>
+    <select id="fuelTypeSelect" disabled>
+      <option value="">Select Fuel Type</option>
+    </select>
+    <label>
+      <input type="checkbox" id="openNowCheckbox"> <span>Open Now</span>
+    </label>
+  </div>
+  <div id="gasStationsList"></div>
+</body>
+
+</html>
